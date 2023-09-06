@@ -1,0 +1,39 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+ }
+
+.nav-menu li {
+  padding: 0 1rem;
+}
+
+.nav-menu li a {
+  display: block;
+  color: white;
+  font-size: larger;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color: darkgrey;
+  border-radius: 0.2rem;
+  padding: 10px;
+}
+
+
+.nav-menu{
+  display: flex;
+}
