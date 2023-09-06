@@ -1,23 +1,25 @@
 import React from 'react';
 import './header.css';
-import CTA from './CTA';
-
+// import CTA from './CTA';
+import BackgroundImage from '../../assets/background.jpeg';
 
 const Header = () => {
   return (
     
 <header>
-  <div className="container header">
-  <h5>Hello I'm</h5>
-  <h1>Rajni Bala</h1>
-  <h5 className="text-light">Full Stack Web Developer</h5>
-  <CTA/>
-<div className='myphoto'>
-<img src='' alt='myself'/>
+  <div className="hero">
+    <div className='myphoto'>
+      <img className='background-photo' src={BackgroundImage} alt='BackgroundImg'/>
+
+    </div>
+ <div className='content'>
+ <p>I am <span>Rajni Bala</span></p>
+ <h1>Full Stack Web Developer</h1>
+<div>
+  <button id='btn'>Projects</button>
+  <button id='btn-contact'>Contact me</button>
 </div>
-
-
-
+</div>
   </div>
 </header>
 
