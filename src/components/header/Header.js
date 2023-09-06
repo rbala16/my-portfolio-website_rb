@@ -16,7 +16,7 @@ const Header = () => {
  <p>I am <span>Rajni Bala</span></p>
  <h1>Full Stack Web Developer</h1>
 <div>
-  <button id='btn'>Projects</button>
+  <button className='btn'>Projects</button>
   <button id='btn-contact'>Contact me</button>
 </div>
 </div>

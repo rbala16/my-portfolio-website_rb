@@ -59,6 +59,17 @@ span{
   text-transform: uppercase;
 }
 
+button  {
+  padding: 15px;
+  border-radius: 0.6rem;
+  background-color: blueviolet;
+  color: beige;
+  border:transparent;
+  margin:20px;
+}
+
+
+
 
 @media screen and (max-width:640px){
   .hero .content h1{
