@@ -1,8 +1,10 @@
 import React from 'react'
 import "./contact.css";
+import HeaderImg from '../headerImg/headerImg';
+
 const Contact = () => {
   return (
-    <div>Contact</div>
+<HeaderImg heading='CONTACT.' text='Lets Chat'/>
   )
 }
 

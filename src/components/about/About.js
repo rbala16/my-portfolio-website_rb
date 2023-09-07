@@ -1,8 +1,11 @@
 import React from 'react'
 import "./about.css";
+import HeaderImg from '../headerImg/headerImg';
 const About = () => {
   return (
-    <div>About</div>
+  
+
+    <HeaderImg heading= 'ABOUT.' text='I am Friendly Front-End Developer'/>
   )
 }
 
