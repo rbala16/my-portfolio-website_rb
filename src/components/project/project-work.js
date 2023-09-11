@@ -4,7 +4,7 @@ import HeaderImg from '../headerImg/headerImg';
 import proimg1 from '../../assets/project1.jpg'
 import { NavLink } from 'react-bootstrap';
 
-const Project = () => {
+const Projectwork = () => {
   return (
     <div>
 
@@ -29,4 +29,4 @@ const Project = () => {
   )
 }
 
-export default Project
+export default Projectwork
