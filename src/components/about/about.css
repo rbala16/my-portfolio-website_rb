@@ -1,0 +1,39 @@
+.about{
+  padding:20px;
+   
+   background-color: black;
+  
+ 
+ }
+ 
+ .about img{
+   height:auto;
+   width:400px;
+ position:relative;
+ border:1px solid black;
+ border-radius: 10px;
+ 
+ 
+ 
+ }
+ /* about page text styling */
+ .about-me{
+ 
+ padding:49px;
+ 
+ text-align: center;
+ }
+ .about{
+   display:block;
+ 
+   justify-content: space-around
+ }
+ 
+ .about-me h2{
+   color: darkorchid;
+  
+   text-transform: capitalize;
+   margin-bottom: 20px;
+   font-style: italic;
+   letter-spacing: 1px;
+ }
