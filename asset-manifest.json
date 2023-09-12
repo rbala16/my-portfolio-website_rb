@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/my-portfolio-website_rb/static/css/main.89a12074.css",
-    "main.js": "/my-portfolio-website_rb/static/js/main.67c0eccb.js",
+    "main.css": "/my-portfolio-website_rb/static/css/main.50b76b52.css",
+    "main.js": "/my-portfolio-website_rb/static/js/main.4710874a.js",
     "static/media/about-me.jpeg": "/my-portfolio-website_rb/static/media/about-me.33393d6522fd87e634f5.jpeg",
     "static/media/background.jpeg": "/my-portfolio-website_rb/static/media/background.c03af79d72285a22d4f3.jpeg",
     "static/media/header-img.jpg": "/my-portfolio-website_rb/static/media/header-img.1b336ad8668953c0a113.jpg",
+    "static/media/CRM.jpg": "/my-portfolio-website_rb/static/media/CRM.d230653b0d539ce8d054.jpg",
+    "static/media/tech-blog.jpg": "/my-portfolio-website_rb/static/media/tech-blog.ba5205a584bd6314ae69.jpg",
+    "static/media/weather-forecast.jpg": "/my-portfolio-website_rb/static/media/weather-forecast.fed4b9d98aa5bd6196db.jpg",
     "static/media/project1.jpg": "/my-portfolio-website_rb/static/media/project1.61f02d5f148f708dbcf4.jpg",
+    "static/media/text-editor.jpg": "/my-portfolio-website_rb/static/media/text-editor.e9fe08fd1033183fa724.jpg",
+    "static/media/logo.jpg": "/my-portfolio-website_rb/static/media/logo.12827b741015e2194e31.jpg",
     "index.html": "/my-portfolio-website_rb/index.html",
-    "main.89a12074.css.map": "/my-portfolio-website_rb/static/css/main.89a12074.css.map",
-    "main.67c0eccb.js.map": "/my-portfolio-website_rb/static/js/main.67c0eccb.js.map"
+    "main.50b76b52.css.map": "/my-portfolio-website_rb/static/css/main.50b76b52.css.map",
+    "main.4710874a.js.map": "/my-portfolio-website_rb/static/js/main.4710874a.js.map"
   },
   "entrypoints": [
-    "static/css/main.89a12074.css",
-    "static/js/main.67c0eccb.js"
+    "static/css/main.50b76b52.css",
+    "static/js/main.4710874a.js"
   ]
 }
