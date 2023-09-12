@@ -2,6 +2,7 @@
   box-sizing: border-box;
   color:black;
 }
+label{color: white;}
 
 /* Style inputs */
 input[type=text],input[type=email], select, textarea {

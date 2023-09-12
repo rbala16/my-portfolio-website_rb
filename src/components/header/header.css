@@ -42,6 +42,8 @@ text-align: center;
 
 span{
   font-style: italic;
+color: darkorchid;
+font-size: 600;
 }
 
 .hero .content h1{
@@ -62,7 +64,7 @@ span{
 button  {
   padding: 15px;
   border-radius: 0.6rem;
-  background-color: blueviolet;
+  background-color: darkorchid;
   color: beige;
   border:transparent;
   margin:20px;
