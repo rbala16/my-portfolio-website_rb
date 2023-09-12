@@ -7,7 +7,7 @@ const About = () => {
   
 
     <><HeaderImg heading='ABOUT.' text='I am Friendly Front-End Developer' />
-    <section className="about">
+    <section className="about" id='about'>
        <img alt="about-me" id="about-section" src={AboutMe} />
         <div className="about-me">
           <h2>About Me</h2>
