@@ -2,7 +2,7 @@ import React from 'react';
 import './project.css';
 
 
-import { NavLink } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 
 const ProjectCards = (props) => {
   return (
@@ -14,7 +14,7 @@ const ProjectCards = (props) => {
       <div className='project-btns'>
         <NavLink to = {props.view}
         className='btn'>View</NavLink>
-           <NavLink to = 'https://github.com/rbala16/note-maker_rb'
+           <NavLink to = {props.source}
         className='btn'>Source</NavLink>
  
       </div>

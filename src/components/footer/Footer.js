@@ -1,7 +1,7 @@
 import React from 'react';
 import './footer.css'
-
-
+import {FaHome, FaMailBulk,FaPhone} from "react-icons/fa";
+import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
 
@@ -11,32 +11,49 @@ const Footer = () => {
                 <span className='app-name'>
                     <span className='app-initial'>P</span>ortfolio
                 </span>
-                <p>Interested <strong>to</strong> work <strong>with</strong> your company</p>
+                <p>I am actively working towards achieving a responsible position where I can leverage my skills and expertise. I am eager to take on professional challenges and contribute to the growth and success of the company while aligning with its objectives</p>
             </div>
             <div className="useful-links">
                 <div className="footer-title">Useful Links</div>
                 <ul>
-                    <li>Home</li>
-                    <li>About me</li>
-                    <li>My Projects</li>
-                    <li>My Github</li>
-                    <li>Lets talk</li>
-                 
+                <li>
+<Link to ="/">Home</Link>
+    </li>
+ <li>
+ <Link to ="/about">About</Link>
+  </li>
+  <li>
+  <Link to ="/project">Project</Link>
+    </li>
+  <li>
+  <Link to ="/contact">Contact</Link>
+    </li>
                 </ul>
             </div>
-      
-            <div className="g-i-t">
-                <div className="footer-title">Get in Touch</div>
-                <form action="/" method="post" className="space-y-2">
-                    <input type="text" name="g-name" className="g-inp" id="g-name" placeholder='Name' />
-                    <input type="email" name="g-email" className="g-inp" id="g-email" placeholder='Email' />
-                    <textarea type="text" name="g-msg" className="g-inp h-40 resize-none" id="g-msg"
-                        placeholder='Message...'></textarea>
-                    <button type="submit" className='f-btn'>Submit</button>
-                </form>
-            </div>
+      <div className='right'>
+        <div className='location'>
+            <FaHome size={20} style={{color:"#fff",marginRight:"2rem" }} />
         </div>
-        <div className='cr-con'>Copyright &copy; 2023 | Made by Rajni bala</div>
+        <div>
+        <p>123 Valley way,Niagara falls</p>
+        <p>Ontario,Canada</p>
+        </div>
+      
+            
+         <div className='phone'>
+         <h4>
+         <FaPhone size={20} style={{color:"#fff",marginRight:"2rem"}} />
+         1-2323-444-555</h4>
+            </div>   
+
+            <div className='email'>
+         <h4>
+         <FaMailBulk size={20} style={{color:"#fff",marginRight:"2rem"}} />
+         bala12rajni@gmail.com</h4>
+            </div>
+</div>
+        </div>
+        <div className='cr-con'>University of Toronto Student 2023 | Made by Rajni bala</div>
     </footer>
 
 
