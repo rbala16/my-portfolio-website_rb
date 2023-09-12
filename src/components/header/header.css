@@ -40,10 +40,17 @@ text-align: center;
    margin: 1rem 0.2rem;
 }
 
+h3{
+  word-spacing: 20px;
+  letter-spacing: 3px;  
+  text-shadow: 1px 2px 3px black;
+}
 span{
   font-style: italic;
 color: darkorchid;
 font-size: 600;
+font-weight: 600;
+text-shadow: 2px 2px 5px darkorchid;
 }
 
 .hero .content h1{
@@ -51,24 +58,20 @@ font-size: 600;
   padding: 0.6rem 0 1.5rem;
   word-spacing: 20px;
   letter-spacing: 4px; 
+  text-shadow: 2px 2px 5px darkorchid;
 }
 
 .hero .content p{
   word-spacing: 20px;
   letter-spacing: 4px; 
   font-size: 1.4rem;
-  font-weight: 200;
+  font-weight: 600;
   text-transform: uppercase;
+  text-shadow: 2px 2px 5px white;
+  font-style: italic;
 }
 
-button  {
-  padding: 15px;
-  border-radius: 0.6rem;
-  background-color: darkorchid;
-  color: beige;
-  border:transparent;
-  margin:20px;
-}
+
 
 
 

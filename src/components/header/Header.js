@@ -17,9 +17,11 @@ const Header = () => {
  <div className='content'>
  <p>I am <span>Rajni Bala</span></p>
  <h1>Full Stack Web Developer</h1>
+ <h3>I am an enthusiastic learner who has a deep passion for acquiring new skills and staying up-to-date with the latest technologies. </h3>
+<br/>
 <div>
-  <Link to ="/project" className="btn"></Link>
-  <Link to ="/contact" className='btn-light'>Contact </Link>
+
+  <Link to ="/contact" className='btn'>Lets Talk</Link>
 </div>
 </div>
   </div>

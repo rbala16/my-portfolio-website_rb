@@ -9,6 +9,11 @@
   z-index: 10;
 }
 
+h1{
+  font-style: italic;
+  text-shadow: 2px 2px 5px white;
+
+}
 .header-bg{
   background-color: rbga(0,0,0,0.8);
   transition: 0.5s;
@@ -36,10 +41,11 @@ ul {
 }
 
 li a:hover {
-  background-color: darkgrey;
-  color: #111010;
+
+  color: darkorchid;
   border-radius: 0.2rem;
   padding: 10px;
+  transition: 0.3s;
 }
 
 

@@ -11,7 +11,7 @@ const Footer = () => {
                 <span className='app-name'>
                     <span className='app-initial'>P</span>ortfolio
                 </span>
-                <p>Interested <strong>to</strong> work <strong>with</strong> your company</p>
+                <p>I am actively working towards achieving a responsible position where I can leverage my skills and expertise. I am eager to take on professional challenges and contribute to the growth and success of the company while aligning with its objectives</p>
             </div>
             <div className="useful-links">
                 <div className="footer-title">Useful Links</div>

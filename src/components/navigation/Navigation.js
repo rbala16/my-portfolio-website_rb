@@ -22,7 +22,7 @@ const changeColor = ()=>{
   return (
     <nav className={color ? 'header header-bg': 'header'}>
     <Link>
-      <h1>Portfolio</h1>
+      <h1>Port <span>folio</span></h1>
       </Link>
 <ul className={click ? 'nav-menu active': 'nav-menu'}>
    <li>

@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   color:white;
+  font-weight: 600;
 }
 label{color: white;}
 
@@ -13,6 +14,7 @@ input[type=text],input[type=email], select, textarea {
   margin-bottom: 16px;
   resize: vertical;
   color: black;
+  border-radius: 10px;
 }
 
 input[type=submit] {
@@ -25,7 +27,8 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: darkorchid;
+  background-color: white;
+  color: black;
 
 }
 
@@ -60,13 +63,25 @@ input[type=submit]:hover {
   text-align: center;
 }
 
-.column img{
-  width:70%
+.ContactImg{
+  width:70%;
+  
+  border-radius: 10px;
+  box-shadow: darkorchid;
 }
+
+.ContactImg:hover{
+
+  transform: scaleX(-1);
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+ 
 
 textarea{
   height:170px;
   color: black;
+  border-radius: 10px;
 }
 /* Clear floats after the columns */
 .row:after {

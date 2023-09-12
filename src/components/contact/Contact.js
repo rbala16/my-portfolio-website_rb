@@ -58,13 +58,13 @@ export default function Contact() {
   return (
     <div className="container">
     <div className='heading' >
-      <h2>Contact Us</h2>
-      <p>Thankyou for visiting my portfolio.</p>
+      <h2>Contact Me</h2>
+      <p>Thank you for visiting my portfolio and reaching out through my website. Your interest is greatly appreciated.</p>
     </div>
     <div className="row">
     <div className="column">
     <img alt="hero"
-            src={ContactImg}
+            src={ContactImg} className="ContactImg"
           /> </div>
             <div className="column">
         <form
