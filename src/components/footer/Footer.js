@@ -25,7 +25,7 @@ const Footer = () => {
                 </ul>
             </div>
       
-            <div className="container">
+            <div className="g-i-t">
                 <div className="footer-title">Get in Touch</div>
                 <form action="/" method="post" className="space-y-2">
                     <input type="text" name="g-name" className="g-inp" id="g-name" placeholder='Name' />
