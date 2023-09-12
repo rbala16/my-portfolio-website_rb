@@ -1,8 +1,11 @@
 import React from 'react'
+import Projectpage from '../components/project/Project';
 
 const Project = () => {
   return (
-    <div>Project</div>
+    <div>
+      <Projectpage/>
+    </div>
   )
 }
 

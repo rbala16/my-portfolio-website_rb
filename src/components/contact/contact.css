@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  color:black;
+  color:white;
 }
 label{color: white;}
 
@@ -12,6 +12,7 @@ input[type=text],input[type=email], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  color: black;
 }
 
 input[type=submit] {
@@ -20,12 +21,26 @@ input[type=submit] {
   padding: 12px 20px;
   border: none;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 input[type=submit]:hover {
   background-color: darkorchid;
+
 }
 
+.heading
+{
+  text-align: center;
+  padding: 40px;
+}
+.heading h2{
+  font-size: 600;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  padding: 40px;
+  color: darkorchid;
+}
 /* Style the container/contact section */
 .container {
   border-radius: 5px;
@@ -51,6 +66,7 @@ input[type=submit]:hover {
 
 textarea{
   height:170px;
+  color: black;
 }
 /* Clear floats after the columns */
 .row:after {
