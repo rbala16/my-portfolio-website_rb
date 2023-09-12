@@ -1,39 +1,38 @@
 .about{
   padding:20px;
-   
+   margin:20px;
    background-color: black;
-  
+  height:60vh;
  
  }
  
  .about img{
-   height:auto;
-   width:400px;
- position:relative;
- border:1px solid black;
- border-radius: 10px;
- 
- 
- 
+  height:auto;
+  width:400px;
+position:relative;
+border:1px solid black;
+border-radius: 10px;
+float: left;
+margin-right:40px;
  }
+
+
  /* about page text styling */
  .about-me{
- 
- padding:49px;
- 
+  padding:70px;
  text-align: center;
+line-height: 30px;
  }
+
  .about{
    display:block;
- 
    justify-content: space-around
  }
  
  .about-me h2{
    color: darkorchid;
-  
-   text-transform: capitalize;
-   margin-bottom: 20px;
+  text-transform: capitalize;
+   margin: 20px;
    font-style: italic;
    letter-spacing: 1px;
  }
