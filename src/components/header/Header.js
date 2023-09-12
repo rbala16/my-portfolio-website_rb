@@ -1,7 +1,9 @@
 import React from 'react';
 import './header.css';
 // import CTA from './CTA';
+import '../../index.css';
 import BackgroundImage from '../../assets/background.jpeg';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -16,8 +18,8 @@ const Header = () => {
  <p>I am <span>Rajni Bala</span></p>
  <h1>Full Stack Web Developer</h1>
 <div>
-  <button className='btn'>Projects</button>
-  <button id='btn-contact'>Contact me</button>
+  <Link to ="/project" className="btn"></Link>
+  <Link to ="/contact" className='btn-light'>Contact </Link>
 </div>
 </div>
   </div>

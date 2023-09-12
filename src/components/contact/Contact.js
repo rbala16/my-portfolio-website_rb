@@ -1,15 +1,14 @@
 import React, { useState } from "react";
-import "./contact.css";
 import ContactImg from '../../assets/background.jpeg';
-
-const Contact = () => {
+import './contact.css';
+export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: "",
   });
 
-  const [ setErrors] = useState({
+  const [errors, setErrors] = useState({
     nameError: "",
     emailError: "",
   });
@@ -52,57 +51,68 @@ const Contact = () => {
         email: "",
         message: "",
       });
-      alert("Thankyou for your submission!! I will get back to you");
+      alert("Thankyou for reaching out to me ,i will get back to you soon!!");
     }
   };
+
   return (
-   
     <div className="container">
-  <div className='container-content'>
-    <h2>Contact Us</h2>
-    <p>Get in touch with Me:</p>
-  </div>
-  <div className="row">
-    <div className="column">
-      <img src={ContactImg} alt='contact-img'/>
+    <div className='heading' >
+      <h2>Contact Us</h2>
+      <p>Thankyou for visiting my portfolio.</p>
     </div>
+    <div className="row">
     <div className="column">
-    <form 
-    onSubmit={handleSubmit}
-    name="contact"
-    className="form_details">
-        <label htmlFor="name">Full Name</label>
-        <input 
-        type="text" 
-        id="name"
-         name="name"
-         value={formData.name}
-         onChange={handleInputChange}
-         placeholder="Enter your Full name here"/>
-        <label htmlFor="email">Email:</label>
-        <input 
-        type="email"
-         id="email" 
-         name="email" 
-         value={formData.email}
-         onChange={{handleInputChange}}
-         placeholder="Enter your email here.."/>
-        <label htmlFor="message">Message</label>
-        <textarea 
-        id="message"
-         name="message"
-         value={formData.message}
-         onChange={handleInputChange}
-         placeholder="Enter your Message here.."></textarea>
-        <input type="submit" value="Submit"/>
-      </form>
+    <img alt="hero"
+            src={ContactImg}
+          /> </div>
+            <div className="column">
+        <form
+          onSubmit={handleSubmit}
+          name="contact"
+          >
+        
+          <label htmlFor="name" > Full Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              value={formData.name}
+              onChange={handleInputChange}
+             placeholder="Enter your Full name here"
+              required
+            />
+            <p className="text-arear">{errors.nameError}</p>
+          
+      
+            <label htmlFor="email"> Email </label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              value={formData.email}
+              onChange={handleInputChange}
+              placeholder="Enter your Email here"
+              required
+            />
+            <p className="text-red-500">{errors.emailError}</p>
+        
+            <label htmlFor="message"> Message</label>
+            <textarea
+              id="message"
+              name="message"
+              value={formData.message}
+              onChange={handleInputChange}
+              placeholder="Feel free to ask anything!!"
+            ></textarea>
+         
+         <input type="submit" value="Submit"/>
+        </form>
+  
+          
+        </div>
+      </div>
     </div>
-  </div>
-</div>
 
-
-
-  )
+  );
 }
-
-export default Contact
