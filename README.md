@@ -3,6 +3,16 @@
 ## Description
 Create a portfolio using your new React skills
 
+## Table of Contents
+
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [License](#license)
+- [Installation](#installation)
+- [Instructions](#instructions)
+- [Contributing](#contributing)
+- [Questions](#questions)
+
 
 ## User Story
 
@@ -41,21 +51,44 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
+## License 
+MIT License
+
+## Installation
+1. Clone the repository
+2. Install the following: 
+- npm install
+
+## Instructions
+💻   
+Run the following command at the terminal:
+
+`npm run start` <br>
+- Go to http://localhost:3000/my-portfolio-website_rb to view the app on local server<br>
+
+- Go to https://rbala16.github.io/my-portfolio-website_rb/ to view the functionality on live server
+
+## Contributing
+Rajni bala : (https://github.com/rbala16)
+
+## Questions
+✉️ Contact me with any questions: [Email:]bala12rajni@gmail.com , [Github](https://github.com/rbala16)<br />
 
 ## Mock-Up
 
-The following animation shows the web application's appearance and functionality:
+The following screenshoot shows the web application's appearance and functionality:
 
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/20-react-homework-demo-01.gif)
+![Demo](./assets/demo1.jpg)
 
 
 ## Review
 
 You are required to submit BOTH of the following for review:
 
-* The URL of the functional, deployed application.
+* The URL of the functional, deployed application.<br>
+https://rbala16.github.io/my-portfolio-website_rb/
 
-* The URL of the GitHub repository, with a unique name and a README that describes the project.
-
+* The URL of the GitHub repository, with a unique name and a README that describes the project.<br>
+https://github.com/rbala16/my-portfolio-website_rb
 - - -
 © 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.

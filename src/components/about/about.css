@@ -2,13 +2,13 @@
   padding:20px;
    margin:20px;
    background-color: black;
-  height:60vh;
+
  
  }
  
  .about img{
   height:auto;
-  width:400px;
+  width:100%;
 position:relative;
 border:1px solid black;
 border-radius: 10px;
@@ -19,7 +19,7 @@ margin-right:40px;
 
  /* about page text styling */
  .about-me{
-  padding:70px;
+  padding:3rem;
  text-align: center;
 line-height: 30px;
  }

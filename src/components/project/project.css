@@ -59,4 +59,8 @@ padding: 0.5rem 1rem;
     margin: auto;
     grid-template-columns: 1fr;
   }
+  .project-description {
+   
+    font-size: 1.0rem;
+}
 }
