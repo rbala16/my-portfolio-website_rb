@@ -19,9 +19,8 @@ footer{
 }
 .f-item-con{
   padding: 1.5rem 4rem;
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  grid-gap: 2rem;
+  display: block;
+  
 }
 footer .app-name{
   color: white;
