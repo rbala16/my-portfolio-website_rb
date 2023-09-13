@@ -78,7 +78,7 @@ Rajni bala : (https://github.com/rbala16)
 
 The following screenshoot shows the web application's appearance and functionality:
 
-![Demo](./assets/demo1.jpg)
+![Demo](./src/assets/demo1.jpg)
 
 
 ## Review
