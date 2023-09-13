@@ -19,8 +19,9 @@ footer{
 }
 .f-item-con{
   padding: 1.5rem 4rem;
-  display: block;
-  
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-gap: 2rem;
 }
 footer .app-name{
   color: white;
@@ -105,4 +106,12 @@ h4{
 
 ul li  {
   padding-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .f-item-con{
+    padding: 1.5rem 4rem;
+    display: block;
+  
+  }
 }
