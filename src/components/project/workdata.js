@@ -4,7 +4,7 @@ import project3 from '../../assets/text-editor.jpg'
 import project4 from '../../assets/logo.jpg'
 import project5 from '../../assets/weather-forecast.jpg'
 import project6 from '../../assets/CRM.jpg'
-
+import project7 from  '../../assets/project7.png'
 const ProjectData =[
   {
 imgsrc:project1,
@@ -48,7 +48,15 @@ source:'https://github.com/rbala16/note-maker_rb'
                     text:'A CRM-lite is a Green Grass Lawn Care Services for employees to book appointment in order to have fastest lawn services and provide excellent customer lawn care services experience. This app uses 3rd party API s such Weather API and Canadian holiday api.',
                     view:'https://dinozio-design.github.io/CRM-lite/',
                     source:'https://github.com/dinozio-design/CRM-lite'
-                      }  
-]
+                      }  ,
+                      {
+                        imgsrc:project7,
+                        title: "Fresh Fit -Express",
+                        text:'A platform for heathy food that allows users to browse the menu, add items to a virtual shopping cart, tailor their orders to their preferences, and complete their purchases using credit or debit cards. ',
+                        view:'https://dry-badlands-70011-5660fc692bea.herokuapp.com/',
+                        source:'https://github.com/sumanpreetk01/FreshFit-Express'
+                          }  
+    ]
+
 
 export default ProjectData;
